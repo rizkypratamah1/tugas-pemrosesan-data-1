@@ -6,8 +6,18 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="http://localhost/pemrogramanweb/proses.php" method="post">
-     
+    <form action="http://localhost/pemrogramanweb/proses.php" method="GET">
+     Bilangan 1 <input type="text" name="bilangan1"><br>
+     Bilangan 2 <input type="text" name="bilangan2"><br>
+     <p>operator
+	  <select name='operator'>
+		<option value='1'>TAMBAH (+)</option>
+		<option value='2'>KURANG (-)</option>
+		<option value='3'>KALI (x)</option>
+		<option value='4'>BAGI (/)</option>
+	  </select>
+	  </p>
+     <input type="submit" name="tombol" value="kirim">
     </form>
 </body>
 </html>
